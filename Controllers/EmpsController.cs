@@ -20,6 +20,12 @@ namespace WebAPPGit.Controllers
         {
             return View(db.Emps.ToList());
         }
+        public PartialViewResult ourPartalView()
+        {
+            EmpContext db = new EmpContext();
+        
+            return PartialView(db.Emps.ToList());
+        }
 
         // GET: Emps/Details/5
         public ActionResult Details(int? id)

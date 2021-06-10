@@ -177,6 +177,8 @@
     <Content Include="Views\Emps\Details.cshtml" />
     <Content Include="Views\Emps\Edit.cshtml" />
     <Content Include="Views\Emps\Index.cshtml" />
+    <Content Include="Views\Emps\ourPartalView.cshtml" />
+    <Content Include="Views\Shared\OurPView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

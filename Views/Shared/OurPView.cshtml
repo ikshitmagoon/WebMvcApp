@@ -1,0 +1,29 @@
+﻿@model WebAPPGit.Models.Emp
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EDesig)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EDOJ)
+        </th>
+        <th></th>
+    </tr>
+
+        <tr>
+            <td>
+                @Model.EName
+            </td>
+            <td>
+                @Model.EDesig</td>
+            <td>
+                @Model.EDOJ
+            </td>
+            
+        </tr>
+    
+
+</table>

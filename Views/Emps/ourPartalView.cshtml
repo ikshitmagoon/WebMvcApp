@@ -1,0 +1,9 @@
+﻿@model IEnumerable<WebAPPGit.Models.Emp>
+
+
+
+@foreach (var item in Model)
+{
+    @Html.Partial("OurPView",item)
+}
+
